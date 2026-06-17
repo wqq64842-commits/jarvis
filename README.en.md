@@ -159,7 +159,7 @@ a filesystem example ships with the repo. MCP tools are offered to the LLM along
 - [ ] More built-in tools (Calendar, Reminders, Mail)
 - [ ] Waveform driven by real mic levels
 
-Issues and PRs welcome.
+Issues and PRs welcome — see the [Contributing Guide](./CONTRIBUTING.md).
 
 ## 🙏 Acknowledgements
 

@@ -158,7 +158,7 @@ cp model.txt.example    model.txt      # 选模型，如 deepseek-chat
 - [ ] 更多内置工具（日历、提醒事项、邮件）
 - [ ] 真实麦克风电平驱动波形
 
-欢迎 Issue / PR 一起折腾。
+欢迎 Issue / PR 一起折腾，详见 [贡献指南](./CONTRIBUTING.md)。
 
 ## 🙏 致谢
 
