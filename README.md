@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Jarvis-Mac
+# 🤖 Jarvis
 
 **你电脑上的中文语音管家 —— 喊一声「贾维斯」，动口就办事。**
 
@@ -12,7 +12,7 @@
 
 **简体中文** · [English](./README.en.md)
 
-<img src="docs/demo.gif" width="440" alt="Jarvis-Mac 演示" />
+<img src="docs/demo.gif" width="440" alt="Jarvis 演示" />
 
 <sub>演示：喊「贾维斯」→ 聆听 → 思考 → 用克隆音回答，HUD 反应堆随状态变色</sub>
 
@@ -22,11 +22,11 @@
 
 ## ✨ 这是什么
 
-Jarvis-Mac 是一个跑在 **macOS / Windows** 上的**中文语音助手**，灵感来自电影里钢铁侠的 AI 管家。
+Jarvis 是一个跑在 **macOS / Windows** 上的**中文语音助手**，灵感来自电影里钢铁侠的 AI 管家。
 你对着电脑喊「贾维斯」，它就醒来听你说话、理解意图、调用工具把事办了，再用语音回答你——
 桌面上还浮着一块青色的全息控制台桌宠，实时显示时间、系统状态和对话字幕。
 
-> 🪟 项目最初为 macOS 而生（仓库名 `jarvis-mac`），现已**同一套代码跨平台**支持 Windows：
+> 🪟 项目最初为 macOS 而生（原名 `jarvis-mac`），现已**同一套代码跨平台**支持 Windows：
 > 底层差异（语音合成、截屏、剪贴板、媒体/音量、回收站、系统遥测等）按系统自动切换，集中在 `jarvis/winops.py`。
 
 它的大脑接的是 **OpenAI 兼容接口**，所以你可以用**自己的中转站**接入任意模型
@@ -83,8 +83,8 @@ flowchart LR
 
 ```bash
 # 1) 克隆
-git clone https://github.com/wqq64842-commits/jarvis-mac.git
-cd jarvis-mac
+git clone https://github.com/wqq64842-commits/jarvis.git
+cd jarvis
 
 # 2) 建虚拟环境并装依赖
 python3.12 -m venv .venv
@@ -110,8 +110,8 @@ cp model.txt.example    model.txt      # 选模型，如 deepseek-chat
 
 ```powershell
 # 1) 克隆
-git clone https://github.com/wqq64842-commits/jarvis-mac.git
-cd jarvis-mac
+git clone https://github.com/wqq64842-commits/jarvis.git
+cd jarvis
 
 # 2) 建虚拟环境并装依赖
 py -3.12 -m venv .venv
